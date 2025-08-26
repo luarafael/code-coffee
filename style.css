@@ -217,3 +217,34 @@ body .arrow {
 body .arrow img {
     width: 100%;
 }
+
+footer {
+    height: 300px;
+    background-color: #000000cc;
+    padding: 0 100px;
+}
+
+footer .box-footer {
+    height: 100%;
+    border: solid red;
+}
+
+footer .box-footer .address nav ul {
+    padding: 30px 0;
+}
+
+footer .box-footer .address nav ul li a {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+footer .box-footer .address address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+}
+
+footer .box-footer .address .social {
+    
+}
