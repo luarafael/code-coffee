@@ -227,6 +227,9 @@ footer {
 footer .box-footer {
     height: 100%;
     border: solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer .box-footer .address nav ul {
@@ -246,5 +249,16 @@ footer .box-footer .address address {
 }
 
 footer .box-footer .address .social {
+    display: flex;
+    gap: 10px;
     
+}
+
+footer .box-footer .address .social li a img {
+    width: 35px;
+    
+}
+
+footer .box-footer .address .social li a img:hover {
+    transform: scale(1.1);
 }
