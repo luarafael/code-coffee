@@ -36,7 +36,7 @@ Demonstrar competências essenciais de front-end e oferecer um exemplo concreto 
 
 Adicione screenshots em `assets/` e substitua os links abaixo.
 
-![screenshot-1](assets/screenshot.svg)
+![screenshot-1](assets/screenshot.jpg)
 
 > Dica: Gere uma imagem `assets/banner.png` e `assets/screenshot.png` para deixar o repositório visualmente atraente.
 
