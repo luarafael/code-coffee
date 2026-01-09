@@ -29,7 +29,9 @@ Demonstrar competências essenciais de front-end e oferecer um exemplo concreto 
 
 ## 📚 Tecnologias Utilizadas
 
-[![HTML5](https://img.shields.io/badge/HTML5-%23e34f26.svg?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-%231572b6.svg?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS) [![Flexbox](https://img.shields.io/badge/Flexbox-%23007FFF.svg)](https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Flexbox) [![Grid](https://img.shields.io/badge/Grid-%2300AEEF.svg)](https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Grid)
+[![HTML5](https://img.shields.io/badge/HTML5-%23e34f26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-%231572b6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS) [![Flexbox](https://img.shields.io/badge/Flexbox-%23007FFF?style=for-the-badge)](https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Flexbox) [![Grid](https://img.shields.io/badge/Grid-%2300AEEF?style=for-the-badge)](https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Grid)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-brightgreen?style=for-the-badge&logo=github)](https://luarafael.github.io/code-coffee/)
 
 ## 📸 Capturas / Demo
 
