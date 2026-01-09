@@ -1,113 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Code Coffe</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="site-banner">
-        <img src="./assets/banner.svg" alt="code-coffe banner">
+      <picture>
+         <source srcset="./assets/banner.png" type="image/png">
+         <img src="./assets/banner.svg" alt="code-coffe banner" />
+      </picture>
     </div>
     <header id="header">
-        <nav>
-            <ul class="logo">
-                <li><a href="#">☕Code Coffe</a></li>
-           </ul>
-           <ul class="navigation">
-                <li><a href="#">Menu</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#gallery">Galeria</a></li>
-                <li><a href="#">Contato</a></li>
-           </ul>
-        </nav>
+      <nav>
+        <ul class="logo">
+          <li><a href="#">☕Code Coffe</a></li>
+        </ul>
+        <ul class="navigation">
+          <li><a href="#">Menu</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
     </header>
-<main>
-    <section class="hero">
+    <main>
+      <section class="hero">
         <div>
-            <h1>O Melhor café</h1>
-            <h2>Deixe seu dia ainda melhor com o nosso café especial!</h2>
-            <p>Bem-vindo ao nosso paraíso do café, onde cada grão conta uma história e cada xícara desperta entusiasmo.</p>
-            <button>Peça Agora</button>
+          <h1>O Melhor café</h1>
+          <h2>Deixe seu dia ainda melhor com o nosso café especial!</h2>
+          <p>
+            Bem-vindo ao nosso paraíso do café, onde cada grão conta uma
+            história e cada xícara desperta entusiasmo.
+          </p>
+          <button>Peça Agora</button>
         </div>
-        <img src="./assets/coffee-hero-section.png" alt="xícara de café flutuante">
-    </section>
-    <section class="about" id="about">
-        <img src="./assets/about-image.jpg" alt="duas pessoas tomando café e conversando">
+        <img
+          src="./assets/coffee-hero-section.png"
+          alt="xícara de café flutuante"
+        />
+      </section>
+      <section class="about" id="about">
+        <img
+          src="./assets/about-image.jpg"
+          alt="duas pessoas tomando café e conversando"
+        />
         <div>
-            <h2>Sobre Nós</h2>
-            <span></span>
-            <p>No coração da cidade, o Code Coffee nasceu da paixão por sabores autênticos e momentos acolhedores. Aqui, cada xícara é preparada com grãos selecionados e torrados artesanalmente, garantindo aroma e frescor incomparáveis. Nosso espaço foi pensado para ser mais que um café: é um ponto de encontro, onde boas conversas, música suave e o aroma irresistível do café se misturam para criar experiências únicas. Seja para começar o dia, fazer uma pausa ou simplesmente apreciar um bom café, você sempre será bem-vindo.</p>
+          <h2>Sobre Nós</h2>
+          <span></span>
+          <p>
+            No coração da cidade, o Code Coffee nasceu da paixão por sabores
+            autênticos e momentos acolhedores. Aqui, cada xícara é preparada com
+            grãos selecionados e torrados artesanalmente, garantindo aroma e
+            frescor incomparáveis. Nosso espaço foi pensado para ser mais que um
+            café: é um ponto de encontro, onde boas conversas, música suave e o
+            aroma irresistível do café se misturam para criar experiências
+            únicas. Seja para começar o dia, fazer uma pausa ou simplesmente
+            apreciar um bom café, você sempre será bem-vindo.
+          </p>
         </div>
-    </section>
-    <section class="gallery" id="gallery">
+      </section>
+      <section class="gallery" id="gallery">
         <h2>Galeria</h2>
         <span></span>
         <div class="gallery-box">
-            <a href="#img1"><img src="./assets/screenshot.svg" alt="screenshot do projeto"></a>
-            <a href="#img2"><img src="./assets/gallery-2.jpg" alt=""></a>
-            <a href="#img3"><img src="./assets/gallery-3.jpg" alt=""></a>
-            <a href="#img4"><img src="./assets/gallery-4.jpg" alt=""></a>
-            <a href="#img5"><img src="./assets/gallery-5.jpg" alt=""></a>
-            <a href="#img6"><img src="./assets/gallery-6.jpg" alt=""></a>
+          <a href="#img1"
+            ><img src="./assets/screenshot.svg" alt="screenshot do projeto"
+          /></a>
+          <a href="#img2"><img src="./assets/gallery-2.jpg" alt="" /></a>
+          <a href="#img3"><img src="./assets/gallery-3.jpg" alt="" /></a>
+          <a href="#img4"><img src="./assets/gallery-4.jpg" alt="" /></a>
+          <a href="#img5"><img src="./assets/gallery-5.jpg" alt="" /></a>
+          <a href="#img6"><img src="./assets/gallery-6.jpg" alt="" /></a>
 
-            <!--modal-->
-            <div class="modal" id="img1">
-              <a href="#gallery" class="close">&times;</a>  
-              <img src="./assets/gallery-1.jpg" alt="">
-            </div>
+          <!--modal-->
+          <div class="modal" id="img1">
+            <a href="#gallery" class="close">&times;</a>
+            <img src="./assets/gallery-1.jpg" alt="" />
+          </div>
 
-            <div class="modal" id="img2">
-              <a href="#gallery" class="close">&times;</a>  
-              <img src="./assets/gallery-2.jpg" alt="">
-            </div>
+          <div class="modal" id="img2">
+            <a href="#gallery" class="close">&times;</a>
+            <img src="./assets/gallery-2.jpg" alt="" />
+          </div>
 
-            <div class="modal" id="img3">
-              <a href="#gallery" class="close">&times;</a>  
-              <img src="./assets/gallery-3.jpg" alt="">
-            </div>
+          <div class="modal" id="img3">
+            <a href="#gallery" class="close">&times;</a>
+            <img src="./assets/gallery-3.jpg" alt="" />
+          </div>
 
-            <div class="modal" id="img4">
-              <a href="#gallery" class="close">&times;</a>  
-              <img src="./assets/gallery-4.jpg" alt="">
-            </div>
+          <div class="modal" id="img4">
+            <a href="#gallery" class="close">&times;</a>
+            <img src="./assets/gallery-4.jpg" alt="" />
+          </div>
 
-            <div class="modal" id="img5">
-              <a href="#gallery" class="close">&times;</a>  
-              <img src="./assets/gallery-5.jpg" alt="">
-            </div>
+          <div class="modal" id="img5">
+            <a href="#gallery" class="close">&times;</a>
+            <img src="./assets/gallery-5.jpg" alt="" />
+          </div>
 
-            <div class="modal" id="img6">
-              <a href="#gallery" class="close">&times;</a>  
-              <img src="./assets/gallery-6.jpg" alt="">
-            </div>
-
+          <div class="modal" id="img6">
+            <a href="#gallery" class="close">&times;</a>
+            <img src="./assets/gallery-6.jpg" alt="" />
+          </div>
         </div>
-    </section>
-</main>
+      </section>
+    </main>
     <footer>
-         <div class="box-footer">
-            <div class="address">
-                <nav>
-                    <ul class="logo">
-                        <li><a href="./index.html">☕Code Coffe</a></li>
-                    </ul>
-                </nav>
-                <address>
-                    <span>Endereço: Edifício Harmony Premium Business - Av. Humberto Monte, 2929 - Pici, Fortaleza - CE, 60440-593</span>
-                    <span>Telefone: (85) 99912-0503</span>
-                </address>   
-                <ul class="social">
-                    <li><a href=""><img src="./assets/facebook.svg" alt="facebook logo"></a></li>
-                    <li><a href=""><img src="./assets/instagram.svg" alt="instagram logo"></a></li>
-                </ul>          
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3331700269678!2d-38.569615999999996!3d-3.7373849999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74bc94202f473%3A0x5eb2ad55d85acb20!2sDigital%20College%20Bezerra!5e0!3m2!1spt-BR!2sbr!4v1756219991110!5m2!1spt-BR!2sbr" width="800" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
+      <div class="box-footer">
+        <div class="address">
+          <nav>
+            <ul class="logo">
+              <li><a href="./index.html">☕Code Coffe</a></li>
+            </ul>
+          </nav>
+          <address>
+            <span
+              >Endereço: Edifício Harmony Premium Business - Av. Humberto Monte,
+              2929 - Pici, Fortaleza - CE, 60440-593</span
+            >
+            <span>Telefone: (85) 99912-0503</span>
+          </address>
+          <ul class="social">
+            <li>
+              <a href=""
+                ><img src="./assets/facebook.svg" alt="facebook logo"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./assets/instagram.svg" alt="instagram logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3331700269678!2d-38.569615999999996!3d-3.7373849999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74bc94202f473%3A0x5eb2ad55d85acb20!2sDigital%20College%20Bezerra!5e0!3m2!1spt-BR!2sbr!4v1756219991110!5m2!1spt-BR!2sbr"
+          width="800"
+          height="275"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </footer>
     <a href="#header" class="arrow">
-        <img src="./assets/arrow.svg" alt="seta pra cima">
+      <img src="./assets/arrow.svg" alt="seta pra cima" />
     </a>
-</body>
+  </body>
 </html>
