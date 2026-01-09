@@ -6,8 +6,6 @@
 
 ---
 
-![code-coffe banner](assets/banner.svg)
-
 ## 🚀 Sobre o Projeto
 
 `code-coffe` é um projeto frontend criado durante minha formação na **Digital College — turma FS-07**. O objetivo principal foi praticar layouts responsivos, tipografia e apresentação visual para projetos de portfólio, seguindo boas práticas de HTML5 e CSS3.
