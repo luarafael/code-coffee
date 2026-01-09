@@ -262,3 +262,15 @@ footer .box-footer .address .social li a img {
 footer .box-footer .address .social li a img:hover {
     transform: scale(1.1);
 }
+
+/* Banner display: garante que banner.svg/banner.png apareçam corretamente */
+.site-banner {
+    width: 100%;
+    overflow: hidden;
+}
+.site-banner img,
+.site-banner picture {
+    display: block;
+    width: 100%;
+    height: auto;
+}
