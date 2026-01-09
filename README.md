@@ -29,16 +29,11 @@ Demonstrar competências essenciais de front-end e oferecer um exemplo concreto 
 
 ## 📚 Tecnologias Utilizadas
 
-- HTML5
-- CSS3 (Flexbox, Grid)
+[![HTML5](https://img.shields.io/badge/HTML5-%23e34f26.svg?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-%231572b6.svg?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS) [![Flexbox](https://img.shields.io/badge/Flexbox-%23007FFF.svg)](https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Flexbox) [![Grid](https://img.shields.io/badge/Grid-%2300AEEF.svg)](https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Grid)
 
 ## 📸 Capturas / Demo
 
-Adicione screenshots em `assets/` e substitua os links abaixo.
-
 ![screenshot-1](assets/screenshot.jpg)
-
-> Dica: Gere uma imagem `assets/banner.png` e `assets/screenshot.png` para deixar o repositório visualmente atraente.
 
 ## ▶️ Como rodar localmente
 
