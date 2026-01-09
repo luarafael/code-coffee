@@ -2,9 +2,11 @@
 
 ![status](https://img.shields.io/badge/status-in_progress-yellow.svg) [![Digital College FS-07](https://img.shields.io/badge/Digital%20College-FS--07-blue.svg)](https://digitalcollege.com) ![HTML5](https://img.shields.io/badge/HTML5-%23e34f26.svg?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572b6.svg?logo=css3&logoColor=white) ![license](https://img.shields.io/badge/license-MIT-green.svg)
 
+[![GitHub issues](https://img.shields.io/github/issues/luarafael/code-coffee)](https://github.com/luarafael/code-coffee/issues) [![GitHub stars](https://img.shields.io/github/stars/luarafael/code-coffee?style=social)](https://github.com/luarafael/code-coffee/stargazers) [![Last commit](https://img.shields.io/github/last-commit/luarafael/code-coffee)](https://github.com/luarafael/code-coffee/commits/main)
+
 ---
 
-![code-coffe banner](assets/banner.png)
+![code-coffe banner](assets/banner.svg)
 
 ## 🚀 Sobre o Projeto
 
@@ -36,7 +38,7 @@ Demonstrar competências essenciais de front-end e oferecer um exemplo concreto 
 
 Adicione screenshots em `assets/` e substitua os links abaixo.
 
-![screenshot-1](assets/screenshot.png)
+![screenshot-1](assets/screenshot.svg)
 
 > Dica: Gere uma imagem `assets/banner.png` e `assets/screenshot.png` para deixar o repositório visualmente atraente.
 
