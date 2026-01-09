@@ -19,7 +19,6 @@ body {
 header nav {
   background-color: #40280a;
   padding: 30px 100px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
